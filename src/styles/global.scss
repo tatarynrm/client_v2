@@ -1,0 +1,67 @@
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer !important;
+}
+a.active {
+  background-color: rgba(76, 135, 202,0.7);
+  border-radius: 4px;
+}
+.center__div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+}
+.ant-modal-close{
+  display: none;
+}
+.ant-modal-title{
+  color: var(--button-main) !important;
+  font-size: 20px !important;
+}
+
+.ant-modal-body {
+  p {
+    font-size: 40px !important;
+  }
+}
+
+
+
+.telegram__chat {
+  font-size: 40px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  right: 60px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 0.3rem;
+  width: 40px;
+  height: 40px;
+  svg {
+    fill: var(--button-main)
+  }
+}
+
+
+.main__content {
+  min-height: 80vh;
+}

@@ -1,0 +1,42 @@
+:root {
+  --button-main: rgb(76, 135, 202);
+  --color-white: white;
+  --color-black: black;
+  --body-background: white;
+  --body-color: black;
+  --link-color: navy;
+  --border-color: transparent;
+  --border: 1px solid var(var(--border-color));
+  --notification-background:rgb(15, 48, 87);
+  --notification-color:white;
+  --notification-item:rgb(15, 48, 87);
+  --burger-menu-bg:black;
+  --burger-menu-color:white;
+  --zap-cina:rgb(192, 221, 157);
+  --price-color:black;
+  --glass:rgba(0, 0, 0, 0.2); 
+
+}
+
+[data-theme="dark"] {
+  --button-main: rgb(76, 135, 202);
+  --color-white: white;
+  --color-black: black;
+  --body-background: #282c34;
+  --body-color: white;
+  --link-color: cyan;
+  --border-color: white;
+  --border: 1px solid var(var(--border-color));
+  --notification-background:white;
+  --notification-color:black;
+  --notification-item:rgb(245, 245, 245);
+  --burger-menu-bg:black;
+  --burger-menu-color:white;
+  --zap-cina:rgb(50, 108, 110);
+  --price-color:white;
+  --glass:rgba(255, 255, 255, 0.2); 
+}
+
+* {
+  transition: all 0.1s ease;
+}
